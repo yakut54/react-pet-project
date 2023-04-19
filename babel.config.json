@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "i18next-extract",
+      {
+        "locales": ["en", "ru"],
+        "keyAsDefaultValue": true,
+        "discardOldKeys": false,
+        "outputPath": "public/locales/{{locale}}/{{ns}}.json"
+      }
+    ]
+  ]
+}
