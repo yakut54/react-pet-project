@@ -24,7 +24,7 @@ module.exports = {
   rules: {
     'react/jsx-indent': [2, 2],
     'react/jsx-indent-props': [2, 2],
-    indent: [2, 2],
+    '@typescript-eslint/indent': [2, 2],
     'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.tsx'] }],
     'import/no-unresolved': 'off',
     'import/prefer-default-export': 'off',
@@ -44,6 +44,7 @@ module.exports = {
         ignoreAttribute: ['data-testid', 'to', 'alt'],
       },
     ],
+    'max-len': ['error', { code: 126, ignoreComments: true }],
   },
   globals: {
     __IS_DEV__: true,
