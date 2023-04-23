@@ -38,6 +38,7 @@ module.exports = {
     'import/extensions': 'off',
     'import/no-extraneous-dependencies': 'off',
     'no-underscore-dangle': 'off',
+    'coma-dangle': 'off',
     semi: ['error', 'never'],
     'i18next/no-literal-string': [
       'error', {
